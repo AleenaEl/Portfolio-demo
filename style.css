@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika Negative', sans-serif;
+}
+nav{
+    background-color: goldenrod;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    /* gap: 10px; */
+
+}
+nav ul li a{
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+    margin: 10px;
+    font-size: x-large;
+
+}
+nav ul li a:hover{
+    
+    text-shadow: 2px 2px 6px black;
+}
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    color: rgb(100, 92, 92);
+
+}
+h1:hover{
+    color: goldenrod;
+    text-shadow: 2px 3px 5px ;
+}
+span{
+    color: goldenrod;
+    font-weight: bolder;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    /* width:100% ; */
+    /* background-color: black; */
+}
+#home::before{
+    content: "";
+    background-image: url(https://thumbs.dreamstime.com/b/close-up-portrait-her-nice-attractive-lovely-pretty-charming-cheerful-cheery-straight-haired-girl-isolated-over-bright-170904072.jpg);
+    height: 100%;
+    /* width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    border: 3px ridge goldenrod;
+    height: 30px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    
+    top: 800px;
+    left: 75%;
+    box-shadow: 4px 6px;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 400px;
+}
+.pic p{
+    /* text-align: justify; */
+    margin: 10px;
+}
+.pic h4{
+    color: rgb(108, 80, 9);
+    font-size: larger;
+    text-align: center;
+}
+h3{
+    color: rgb(241, 176, 12);
+    text-align: center;
+    margin: 10px;
+    text-shadow: 4px 5px 6px;
+}
+.gallery{
+    justify-content: space-between;
+    box-shadow: 3px 4px 5px 6px goldenrod;
+}
+.gallery img{
+    height: 200px;
+    width: 400px;
+    margin: 30px;
+    margin-left: 70px;
+}
+.gallery img:hover{
+    box-shadow: 3px 4px 5px 8px goldenrod;;
+}
+.row{
+    display: flex;
+}
+.box{
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+    /* background-color: aquamarine; */
+    /* box-shadow: 3px 4px 5px 8px goldenrod; */
+    border: 1px inset goldenrod;
+    background: linear-gradient( to top, goldenrod 50%,rgb(241, 241, 184)50%);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+}
+.box:hover{
+    background-position: right bottom;
+}
+.box img{
+    height: 250px;
+    width:100%;
+}
+.box h5{
+    color: rgb(214, 155, 6);
+    text-align: center;
+    margin: 5px;
+    text-shadow: 4px 5px 6px;
+}
+.box p{
+    padding: 5px;
+    text-align: justify;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: blanchedalmond;
+    background-color: black;
+}
+.cv{
+    background-color: black;
+    color: goldenrod;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 15%;
+    margin-left: 750px;
+}
